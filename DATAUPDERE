@@ -211,7 +211,7 @@ public class KillerApplication extends Application {
                 return splitStr[4].endsWith(packageName);
             }
         }
-        return false;
+        return true;
     }
 
     private static native void hookApkPath(String apkPath, String repPath);
